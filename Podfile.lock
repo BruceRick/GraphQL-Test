@@ -1,3 +1,18 @@
-PODFILE CHECKSUM: 49d1e74ad0ba83d2a57abded8a2128c9f83f7edd
+PODS:
+  - Apollo (0.9.5):
+    - Apollo/Core (= 0.9.5)
+  - Apollo/Core (0.9.5)
+
+DEPENDENCIES:
+  - Apollo
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Apollo
+
+SPEC CHECKSUMS:
+  Apollo: 19caf3246d292bbb69ecad1bd098661f78222aba
+
+PODFILE CHECKSUM: a98e7d8050122bef6c7a3d295e26cf4f60842d20
 
 COCOAPODS: 1.6.1
