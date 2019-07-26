@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  SimpleTwitter
+//  GraphQL-Test
 //
 //  Created by Bruce Rick on 2019-07-23.
 //  Copyright © 2019 Bruce Rick. All rights reserved.

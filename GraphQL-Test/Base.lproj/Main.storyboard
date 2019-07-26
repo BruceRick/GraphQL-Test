@@ -25,10 +25,10 @@
             </objects>
             <point key="canvasLocation" x="-500" y="34"/>
         </scene>
-        <!--Twitter-->
+        <!--Pokemon-->
         <scene sceneID="t8J-Td-lcL">
             <objects>
-                <tableViewController id="qHa-Ak-ZKD" customClass="SearchViewController" customModule="SimpleTwitter" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="qHa-Ak-ZKD" customClass="SearchViewController" customModule="GraphQL_Test" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="iAD-Fi-l79">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -48,7 +48,7 @@
                             <outlet property="delegate" destination="qHa-Ak-ZKD" id="7AC-fJ-Ugj"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Twitter" id="TtJ-tX-rle"/>
+                    <navigationItem key="navigationItem" title="Pokemon" id="TtJ-tX-rle"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wxT-dl-rdm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

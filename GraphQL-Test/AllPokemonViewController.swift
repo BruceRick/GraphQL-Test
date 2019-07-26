@@ -1,6 +1,6 @@
 //
-//  SearchViewController.swift
-//  SimpleTwitter
+//  AllPokemonViewController.swift
+//  GraphQL-Test
 //
 //  Created by Bruce Rick on 2019-07-23.
 //  Copyright © 2019 Bruce Rick. All rights reserved.
@@ -8,23 +8,22 @@
 
 import UIKit
 
-class SearchViewController: UITableViewController {
+class AllPokemonViewController: UITableViewController {
 
     lazy var searchBar: UISearchBar = UISearchBar(frame: CGRect.zero)
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        searchBar.placeholder = "Search Twitter"
-        navigationItem.titleView = searchBar
+        loadAllPokemon()
     }
     
-    func updateTweets() {
+    func loadAllPokemon() {
         
     }
 }
 
-extension SearchViewController {
+extension AllPokemonViewController {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 0
@@ -36,11 +35,5 @@ extension SearchViewController {
         }
         
         return cell
-    }
-}
-
-extension SearchViewController: UISearchBarDelegate {
-    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-        updateTweets()
     }
 }

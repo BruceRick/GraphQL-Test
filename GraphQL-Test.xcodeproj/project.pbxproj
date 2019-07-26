@@ -3,29 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A24F685A22E7B249002A621D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24F685922E7B249002A621D /* AppDelegate.swift */; };
-		A24F685C22E7B249002A621D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24F685B22E7B249002A621D /* SearchViewController.swift */; };
+		A24F685C22E7B249002A621D /* AllPokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24F685B22E7B249002A621D /* AllPokemonViewController.swift */; };
 		A24F685F22E7B249002A621D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24F685D22E7B249002A621D /* Main.storyboard */; };
 		A24F686122E7B24A002A621D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24F686022E7B24A002A621D /* Assets.xcassets */; };
 		A24F686422E7B24A002A621D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24F686222E7B24A002A621D /* LaunchScreen.storyboard */; };
-		D991493FFAB9F31E75CC79B3 /* Pods_SimpleTwitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731E34E9FB13619901B8FE92 /* Pods_SimpleTwitter.framework */; };
+		D2F0E02213D4C44D67C3E6CA /* Pods_GraphQL_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F350FE433CA945AD2C83DDF4 /* Pods_GraphQL_Test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1428EAB4B7D6353CD38C6483 /* Pods-GraphQL-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQL-Test.release.xcconfig"; path = "Target Support Files/Pods-GraphQL-Test/Pods-GraphQL-Test.release.xcconfig"; sourceTree = "<group>"; };
 		1B0D94272F93262DACCEA3AA /* Pods-SimpleTwitter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTwitter.release.xcconfig"; path = "Target Support Files/Pods-SimpleTwitter/Pods-SimpleTwitter.release.xcconfig"; sourceTree = "<group>"; };
 		4097FE1CB8E6634986A12AD2 /* Pods-SimpleTwitter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTwitter.debug.xcconfig"; path = "Target Support Files/Pods-SimpleTwitter/Pods-SimpleTwitter.debug.xcconfig"; sourceTree = "<group>"; };
-		731E34E9FB13619901B8FE92 /* Pods_SimpleTwitter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleTwitter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A24F685622E7B249002A621D /* SimpleTwitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTwitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E80D2B6C03AAA3379C5851 /* Pods-GraphQL-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQL-Test.debug.xcconfig"; path = "Target Support Files/Pods-GraphQL-Test/Pods-GraphQL-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		A24F685622E7B249002A621D /* GraphQL-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GraphQL-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A24F685922E7B249002A621D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A24F685B22E7B249002A621D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		A24F685B22E7B249002A621D /* AllPokemonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPokemonViewController.swift; sourceTree = "<group>"; };
 		A24F685E22E7B249002A621D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A24F686022E7B24A002A621D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A24F686322E7B24A002A621D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A24F686522E7B24A002A621D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F350FE433CA945AD2C83DDF4 /* Pods_GraphQL_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphQL_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D991493FFAB9F31E75CC79B3 /* Pods_SimpleTwitter.framework in Frameworks */,
+				D2F0E02213D4C44D67C3E6CA /* Pods_GraphQL_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +45,7 @@
 		A24F684D22E7B248002A621D = {
 			isa = PBXGroup;
 			children = (
-				A24F685822E7B249002A621D /* SimpleTwitter */,
+				A24F685822E7B249002A621D /* GraphQL-Test */,
 				A24F685722E7B249002A621D /* Products */,
 				D107821CCC7D3E96EC4209A5 /* Pods */,
 				F5340B2A19CB3CA19906D7D1 /* Frameworks */,
@@ -53,22 +55,22 @@
 		A24F685722E7B249002A621D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A24F685622E7B249002A621D /* SimpleTwitter.app */,
+				A24F685622E7B249002A621D /* GraphQL-Test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A24F685822E7B249002A621D /* SimpleTwitter */ = {
+		A24F685822E7B249002A621D /* GraphQL-Test */ = {
 			isa = PBXGroup;
 			children = (
 				A24F685922E7B249002A621D /* AppDelegate.swift */,
-				A24F685B22E7B249002A621D /* SearchViewController.swift */,
+				A24F685B22E7B249002A621D /* AllPokemonViewController.swift */,
 				A24F685D22E7B249002A621D /* Main.storyboard */,
 				A24F686022E7B24A002A621D /* Assets.xcassets */,
 				A24F686222E7B24A002A621D /* LaunchScreen.storyboard */,
 				A24F686522E7B24A002A621D /* Info.plist */,
 			);
-			path = SimpleTwitter;
+			path = "GraphQL-Test";
 			sourceTree = "<group>";
 		};
 		D107821CCC7D3E96EC4209A5 /* Pods */ = {
@@ -76,6 +78,8 @@
 			children = (
 				4097FE1CB8E6634986A12AD2 /* Pods-SimpleTwitter.debug.xcconfig */,
 				1B0D94272F93262DACCEA3AA /* Pods-SimpleTwitter.release.xcconfig */,
+				57E80D2B6C03AAA3379C5851 /* Pods-GraphQL-Test.debug.xcconfig */,
+				1428EAB4B7D6353CD38C6483 /* Pods-GraphQL-Test.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -83,7 +87,7 @@
 		F5340B2A19CB3CA19906D7D1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				731E34E9FB13619901B8FE92 /* Pods_SimpleTwitter.framework */,
+				F350FE433CA945AD2C83DDF4 /* Pods_GraphQL_Test.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -91,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A24F685522E7B249002A621D /* SimpleTwitter */ = {
+		A24F685522E7B249002A621D /* GraphQL-Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A24F686822E7B24A002A621D /* Build configuration list for PBXNativeTarget "SimpleTwitter" */;
+			buildConfigurationList = A24F686822E7B24A002A621D /* Build configuration list for PBXNativeTarget "GraphQL-Test" */;
 			buildPhases = (
 				3FD3CC2B603220AF8E770232 /* [CP] Check Pods Manifest.lock */,
 				A24F685222E7B249002A621D /* Sources */,
@@ -105,9 +109,9 @@
 			);
 			dependencies = (
 			);
-			name = SimpleTwitter;
+			name = "GraphQL-Test";
 			productName = SimpleTwitter;
-			productReference = A24F685622E7B249002A621D /* SimpleTwitter.app */;
+			productReference = A24F685622E7B249002A621D /* GraphQL-Test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +129,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A24F685122E7B248002A621D /* Build configuration list for PBXProject "SimpleTwitter" */;
+			buildConfigurationList = A24F685122E7B248002A621D /* Build configuration list for PBXProject "GraphQL-Test" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -138,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A24F685522E7B249002A621D /* SimpleTwitter */,
+				A24F685522E7B249002A621D /* GraphQL-Test */,
 			);
 		};
 /* End PBXProject section */
@@ -163,15 +167,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SimpleTwitter/Pods-SimpleTwitter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GraphQL-Test/Pods-GraphQL-Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SimpleTwitter/Pods-SimpleTwitter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GraphQL-Test/Pods-GraphQL-Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimpleTwitter/Pods-SimpleTwitter-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GraphQL-Test/Pods-GraphQL-Test-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3FD3CC2B603220AF8E770232 /* [CP] Check Pods Manifest.lock */ = {
@@ -189,7 +193,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SimpleTwitter-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GraphQL-Test-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -203,7 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A24F685C22E7B249002A621D /* SearchViewController.swift in Sources */,
+				A24F685C22E7B249002A621D /* AllPokemonViewController.swift in Sources */,
 				A24F685A22E7B249002A621D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,16 +352,16 @@
 		};
 		A24F686922E7B24A002A621D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4097FE1CB8E6634986A12AD2 /* Pods-SimpleTwitter.debug.xcconfig */;
+			baseConfigurationReference = 57E80D2B6C03AAA3379C5851 /* Pods-GraphQL-Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SimpleTwitter/Info.plist;
+				INFOPLIST_FILE = "GraphQL-Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleTwitter;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GraphQL-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -366,16 +370,16 @@
 		};
 		A24F686A22E7B24A002A621D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B0D94272F93262DACCEA3AA /* Pods-SimpleTwitter.release.xcconfig */;
+			baseConfigurationReference = 1428EAB4B7D6353CD38C6483 /* Pods-GraphQL-Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SimpleTwitter/Info.plist;
+				INFOPLIST_FILE = "GraphQL-Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleTwitter;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GraphQL-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -385,7 +389,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A24F685122E7B248002A621D /* Build configuration list for PBXProject "SimpleTwitter" */ = {
+		A24F685122E7B248002A621D /* Build configuration list for PBXProject "GraphQL-Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A24F686622E7B24A002A621D /* Debug */,
@@ -394,7 +398,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A24F686822E7B24A002A621D /* Build configuration list for PBXNativeTarget "SimpleTwitter" */ = {
+		A24F686822E7B24A002A621D /* Build configuration list for PBXNativeTarget "GraphQL-Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A24F686922E7B24A002A621D /* Debug */,
