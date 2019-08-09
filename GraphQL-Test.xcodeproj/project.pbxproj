@@ -8,10 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		A24F685A22E7B249002A621D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24F685922E7B249002A621D /* AppDelegate.swift */; };
-		A24F685C22E7B249002A621D /* AllPokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24F685B22E7B249002A621D /* AllPokemonViewController.swift */; };
+		A24F685C22E7B249002A621D /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24F685B22E7B249002A621D /* CountriesViewController.swift */; };
 		A24F685F22E7B249002A621D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24F685D22E7B249002A621D /* Main.storyboard */; };
 		A24F686122E7B24A002A621D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24F686022E7B24A002A621D /* Assets.xcassets */; };
 		A24F686422E7B24A002A621D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24F686222E7B24A002A621D /* LaunchScreen.storyboard */; };
+		A24F686D22EB6754002A621D /* Queries.graphql in Resources */ = {isa = PBXBuildFile; fileRef = A24F686C22EB6754002A621D /* Queries.graphql */; };
+		A24F686F22EB6C09002A621D /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24F686E22EB6C09002A621D /* API.swift */; };
+		A24F687122EB6C8E002A621D /* JobTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24F687022EB6C8E002A621D /* JobTableViewCell.swift */; };
+		A24F687322EB71B7002A621D /* CitiesViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24F687222EB71B7002A621D /* CitiesViewControllerTableViewController.swift */; };
+		A273389B22EE838200E4FDE8 /* JobsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273389A22EE838200E4FDE8 /* JobsTableViewController.swift */; };
+		A2B8078722FCDD0900EAC6A8 /* JobDetailsTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B8078622FCDD0900EAC6A8 /* JobDetailsTableTableViewController.swift */; };
 		D2F0E02213D4C44D67C3E6CA /* Pods_GraphQL_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F350FE433CA945AD2C83DDF4 /* Pods_GraphQL_Test.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,11 +28,17 @@
 		57E80D2B6C03AAA3379C5851 /* Pods-GraphQL-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQL-Test.debug.xcconfig"; path = "Target Support Files/Pods-GraphQL-Test/Pods-GraphQL-Test.debug.xcconfig"; sourceTree = "<group>"; };
 		A24F685622E7B249002A621D /* GraphQL-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GraphQL-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A24F685922E7B249002A621D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A24F685B22E7B249002A621D /* AllPokemonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPokemonViewController.swift; sourceTree = "<group>"; };
+		A24F685B22E7B249002A621D /* CountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
 		A24F685E22E7B249002A621D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A24F686022E7B24A002A621D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A24F686322E7B24A002A621D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A24F686522E7B24A002A621D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A24F686C22EB6754002A621D /* Queries.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Queries.graphql; sourceTree = "<group>"; };
+		A24F686E22EB6C09002A621D /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		A24F687022EB6C8E002A621D /* JobTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTableViewCell.swift; sourceTree = "<group>"; };
+		A24F687222EB71B7002A621D /* CitiesViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewControllerTableViewController.swift; sourceTree = "<group>"; };
+		A273389A22EE838200E4FDE8 /* JobsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsTableViewController.swift; sourceTree = "<group>"; };
+		A2B8078622FCDD0900EAC6A8 /* JobDetailsTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsTableTableViewController.swift; sourceTree = "<group>"; };
 		F350FE433CA945AD2C83DDF4 /* Pods_GraphQL_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphQL_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -63,8 +75,14 @@
 		A24F685822E7B249002A621D /* GraphQL-Test */ = {
 			isa = PBXGroup;
 			children = (
+				A24F686E22EB6C09002A621D /* API.swift */,
+				A24F686C22EB6754002A621D /* Queries.graphql */,
 				A24F685922E7B249002A621D /* AppDelegate.swift */,
-				A24F685B22E7B249002A621D /* AllPokemonViewController.swift */,
+				A24F685B22E7B249002A621D /* CountriesViewController.swift */,
+				A24F687222EB71B7002A621D /* CitiesViewControllerTableViewController.swift */,
+				A273389A22EE838200E4FDE8 /* JobsTableViewController.swift */,
+				A24F687022EB6C8E002A621D /* JobTableViewCell.swift */,
+				A2B8078622FCDD0900EAC6A8 /* JobDetailsTableTableViewController.swift */,
 				A24F685D22E7B249002A621D /* Main.storyboard */,
 				A24F686022E7B24A002A621D /* Assets.xcassets */,
 				A24F686222E7B24A002A621D /* LaunchScreen.storyboard */,
@@ -100,6 +118,7 @@
 			buildConfigurationList = A24F686822E7B24A002A621D /* Build configuration list for PBXNativeTarget "GraphQL-Test" */;
 			buildPhases = (
 				3FD3CC2B603220AF8E770232 /* [CP] Check Pods Manifest.lock */,
+				A24F686B22EB6528002A621D /* Generate Apollo GraphQL API */,
 				A24F685222E7B249002A621D /* Sources */,
 				A24F685322E7B249002A621D /* Frameworks */,
 				A24F685422E7B249002A621D /* Resources */,
@@ -152,6 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A24F686D22EB6754002A621D /* Queries.graphql in Resources */,
 				A24F686422E7B24A002A621D /* LaunchScreen.storyboard in Resources */,
 				A24F686122E7B24A002A621D /* Assets.xcassets in Resources */,
 				A24F685F22E7B249002A621D /* Main.storyboard in Resources */,
@@ -200,6 +220,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A24F686B22EB6528002A621D /* Generate Apollo GraphQL API */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Apollo GraphQL API";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ls\nSCRIPT_PATH=\"${PODS_ROOT}/Apollo/scripts\"\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\"${SCRIPT_PATH}\"/check-and-run-apollo-cli.sh codegen:generate --target=swift --includes=./*.graphql --localSchemaFile=\"schema.json\" API.swift\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -207,8 +245,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A24F685C22E7B249002A621D /* AllPokemonViewController.swift in Sources */,
+				A2B8078722FCDD0900EAC6A8 /* JobDetailsTableTableViewController.swift in Sources */,
+				A24F685C22E7B249002A621D /* CountriesViewController.swift in Sources */,
+				A24F686F22EB6C09002A621D /* API.swift in Sources */,
 				A24F685A22E7B249002A621D /* AppDelegate.swift in Sources */,
+				A24F687122EB6C8E002A621D /* JobTableViewCell.swift in Sources */,
+				A24F687322EB71B7002A621D /* CitiesViewControllerTableViewController.swift in Sources */,
+				A273389B22EE838200E4FDE8 /* JobsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

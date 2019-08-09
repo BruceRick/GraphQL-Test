@@ -1,0 +1,60 @@
+query Countries {
+  countries {
+    name
+    slug
+  }
+}
+
+query Country($location: LocationInput!) {
+  country(input: $location) {
+    cities {
+      name
+      slug
+    }
+  }
+}
+
+query JobsCountry($location: LocationInput!) {
+  country(input: $location) {
+    cities {
+      jobs {
+        ...JobSummary
+      }
+    }
+  }
+}
+
+query JobsCity($location: LocationInput!) {
+  city(input: $location) {
+    jobs {
+      ...JobSummary
+    }
+  }
+}
+
+query JobDetails($jobInput: JobInput!) {
+  job(input: $jobInput) {
+    ...JobDetails
+  }
+}
+
+fragment JobSummary on Job {
+  title
+  slug
+  company {
+    name
+    slug
+    logoUrl
+  }
+  cities {
+    name
+  }
+}
+
+fragment JobDetails on Job {
+  commitment {
+    title
+  }
+  description
+  applyUrl
+}
