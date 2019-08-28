@@ -27,7 +27,7 @@ class CountriesViewController: UITableViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "Cities" {
-            guard let citiesVC = segue.destination as? CitiesViewControllerTableViewController else {
+            guard let citiesVC = segue.destination as? CitiesTableViewController else {
                 return
             }
             

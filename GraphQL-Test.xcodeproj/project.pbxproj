@@ -15,7 +15,7 @@
 		A24F686D22EB6754002A621D /* Queries.graphql in Resources */ = {isa = PBXBuildFile; fileRef = A24F686C22EB6754002A621D /* Queries.graphql */; };
 		A24F686F22EB6C09002A621D /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24F686E22EB6C09002A621D /* API.swift */; };
 		A24F687122EB6C8E002A621D /* JobTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24F687022EB6C8E002A621D /* JobTableViewCell.swift */; };
-		A24F687322EB71B7002A621D /* CitiesViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24F687222EB71B7002A621D /* CitiesViewControllerTableViewController.swift */; };
+		A24F687322EB71B7002A621D /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24F687222EB71B7002A621D /* CitiesTableViewController.swift */; };
 		A273389B22EE838200E4FDE8 /* JobsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273389A22EE838200E4FDE8 /* JobsTableViewController.swift */; };
 		A2B8078722FCDD0900EAC6A8 /* JobDetailsTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B8078622FCDD0900EAC6A8 /* JobDetailsTableTableViewController.swift */; };
 		D2F0E02213D4C44D67C3E6CA /* Pods_GraphQL_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F350FE433CA945AD2C83DDF4 /* Pods_GraphQL_Test.framework */; };
@@ -36,7 +36,7 @@
 		A24F686C22EB6754002A621D /* Queries.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Queries.graphql; sourceTree = "<group>"; };
 		A24F686E22EB6C09002A621D /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		A24F687022EB6C8E002A621D /* JobTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTableViewCell.swift; sourceTree = "<group>"; };
-		A24F687222EB71B7002A621D /* CitiesViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewControllerTableViewController.swift; sourceTree = "<group>"; };
+		A24F687222EB71B7002A621D /* CitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
 		A273389A22EE838200E4FDE8 /* JobsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsTableViewController.swift; sourceTree = "<group>"; };
 		A2B8078622FCDD0900EAC6A8 /* JobDetailsTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsTableTableViewController.swift; sourceTree = "<group>"; };
 		F350FE433CA945AD2C83DDF4 /* Pods_GraphQL_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphQL_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,7 +79,7 @@
 				A24F686C22EB6754002A621D /* Queries.graphql */,
 				A24F685922E7B249002A621D /* AppDelegate.swift */,
 				A24F685B22E7B249002A621D /* CountriesViewController.swift */,
-				A24F687222EB71B7002A621D /* CitiesViewControllerTableViewController.swift */,
+				A24F687222EB71B7002A621D /* CitiesTableViewController.swift */,
 				A273389A22EE838200E4FDE8 /* JobsTableViewController.swift */,
 				A24F687022EB6C8E002A621D /* JobTableViewCell.swift */,
 				A2B8078622FCDD0900EAC6A8 /* JobDetailsTableTableViewController.swift */,
@@ -250,7 +250,7 @@
 				A24F686F22EB6C09002A621D /* API.swift in Sources */,
 				A24F685A22E7B249002A621D /* AppDelegate.swift in Sources */,
 				A24F687122EB6C8E002A621D /* JobTableViewCell.swift in Sources */,
-				A24F687322EB71B7002A621D /* CitiesViewControllerTableViewController.swift in Sources */,
+				A24F687322EB71B7002A621D /* CitiesTableViewController.swift in Sources */,
 				A273389B22EE838200E4FDE8 /* JobsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

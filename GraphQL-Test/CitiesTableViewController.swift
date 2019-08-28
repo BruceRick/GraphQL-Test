@@ -1,5 +1,5 @@
 //
-//  CitiesViewControllerTableViewController.swift
+//  CitiesTableViewController.swift
 //  GraphQL-Test
 //
 //  Created by Bruce Rick on 2019-07-26.
@@ -11,7 +11,7 @@ import UIKit
 import UIKit
 import Apollo
 
-class CitiesViewControllerTableViewController: UITableViewController {
+class CitiesTableViewController: UITableViewController {
     
     public var selectedCountry: CountriesQuery.Data.Country? {
         didSet {
@@ -59,7 +59,7 @@ class CitiesViewControllerTableViewController: UITableViewController {
     }
 }
 
-extension CitiesViewControllerTableViewController {
+extension CitiesTableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         guard let cities = self.cities else {
             return 0;

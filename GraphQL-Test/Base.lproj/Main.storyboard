@@ -62,7 +62,7 @@
         <!--Jobs Cities-->
         <scene sceneID="47c-YC-85n">
             <objects>
-                <tableViewController id="TiQ-7s-b7t" userLabel="Jobs Cities" customClass="CitiesViewControllerTableViewController" customModule="GraphQL_Test" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="TiQ-7s-b7t" userLabel="Jobs Cities" customClass="CitiesTableViewController" customModule="GraphQL_Test" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ijp-Ml-kR6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
